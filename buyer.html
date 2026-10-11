@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bili-Bite - Buyer</title>
+    <link rel="stylesheet" href="buyer.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Bili-Bite</h1>
+
+        <nav>
+            <a href="buyer.html">Home</a>
+            <a href="#availableFoods">Available Foods</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section class="welcome">
+        <h2>Welcome, <span id="clientName">Client</span>!</h2>
+
+        <h2>Find Local Food Businesses</h2>
+
+        <p>
+            Discover food products from local sellers in your barangay.
+        </p>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search food or seller..."
+            >
+            <button type="button" id="searchButton">Search</button>
+        </div>
+    </section>
+
+    <section class="available-products" id="availableFoods">
+        <h2>Available Foods</h2>
+
+        <div class="product-list" id="foodList">
+            <p>Loading food products...</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Bili-Bite</h2>
+        <p>
+            Bili-Bite helps customers discover food products
+            offered by local sellers in their barangay.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Bili-Bite</p>
+        <p>Local Food Marketplace</p>
+    </footer>
+
+    <script type="module" src="buyer.js"></script>
+
+</body>
+</html>

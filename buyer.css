@@ -1,0 +1,357 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+      /* Background image */
+    background-image: url("bg2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+/* Header */
+
+header {
+    background-color: #ff6b00;
+    color: white;
+    padding: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+/* Welcome */
+
+.welcome {
+    text-align: center;
+    background-color: #fff0e300;
+    padding: 50px 20px;
+}
+
+.welcome h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    color: #66666600;
+}
+
+.welcome input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #cccccc00;
+}
+
+.welcome button {
+    padding: 11px 18px;
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+}
+
+
+/* Businesses */
+
+.businesses {
+    padding: 40px 8%;
+}
+
+.businesses h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.business-list {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* Business Card */
+
+.business-card {
+    width: 280px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.business-card:hover {
+    box-shadow: 0 5px 15px #ccc;
+}
+
+.business-image {
+    height: 130px;
+    background-color: #ffe1c4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 70px;
+}
+
+.business-card h3 {
+    margin-bottom: 8px;
+}
+
+.business-card p {
+    color: #666;
+    font-size: 14px;
+}
+
+.location {
+    margin-bottom: 20px;
+}
+
+
+/* View Products Button */
+
+.view-button {
+    display: inline-block;
+
+    background-color: #ff6b00;
+    color: white;
+
+    padding: 10px 18px;
+
+    text-decoration: none;
+}
+
+.view-button:hover {
+    background-color: #e65f00;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 30px;
+    padding: 25px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+/* Business Information */
+
+.business-info {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff0e3;
+}
+
+.business-info h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.business-info p {
+    color: #666;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+
+/* Available Products */
+
+.available-products {
+    padding: 40px 8%;
+}
+
+.available-products > h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-list {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* Product Card */
+
+.product-card {
+    width: 230px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.product-card:hover {
+    box-shadow: 0 5px 15px #ccc;
+}
+
+.product-picture {
+    height: 150px;
+    background-color: #ffe1c4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 70px;
+}
+
+.product-card h3 {
+    margin-bottom: 8px;
+}
+
+.product-card p {
+    color: #666;
+    font-size: 14px;
+}
+
+.product-card .price {
+    color: #ff6b00;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Message Seller */
+
+.message-section {
+    margin-top: 50px;
+    padding: 30px;
+
+    background-color: #fff0e3;
+
+    text-align: center;
+}
+
+.message-section h2 {
+    margin-bottom: 10px;
+}
+
+.message-section p {
+    color: #666;
+}
+
+
+/* Message Buttons */
+
+.message-buttons {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.message-buttons a {
+    color: white;
+    text-decoration: none;
+
+    padding: 12px 20px;
+}
+
+
+/* Messenger */
+
+.messenger-button {
+    background-color: #1877f2;
+}
+
+.messenger-button:hover {
+    background-color: #0d65d9;
+}
+
+
+/* WhatsApp */
+
+.whatsapp-button {
+    background-color: #25d366;
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebc59;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 30px;
+    padding: 25px;
+
+    text-align: center;
+
+    background-color: #333;
+    color: white;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    margin-left: 0; /* gap na ang bahala sa spacing */
+}
+
+nav .cart-button {
+    background-color: white;
+    color: #c25400;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+nav .cart-button:hover {
+    background-color: #fff0e3;
+}
+
+.cart-count {
+    background-color: #c25400;
+    color: white;
+    font-size: 12px;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 6px;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.product-card .seller {
+    font-size: 13px;
+    color: #999;
+}
+
+.empty-message {
+    text-align: center;
+    color: #777;
+    padding: 30px;
+}

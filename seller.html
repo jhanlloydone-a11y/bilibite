@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bili-Bite - Seller Dashboard</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="seller.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Bili-Bite</h1>
+
+        <nav>
+            <a href="seller.html">My Products</a>
+        </nav>
+    </header>
+
+
+    <!-- Seller Dashboard -->
+    <section class="dashboard">
+
+        <h2>My Products</h2>
+
+        <p class="welcome">
+            Welcome, <span id="sellerName"></span>!
+        </p>
+
+        <!-- Add Food Button -->
+        <button id="addFoodButton" class="add-food-button">
+            + Add Food
+        </button>
+
+    </section>
+
+
+    <!-- Add Food Form (nakatago hanggang pindutin ang + Add Food) -->
+    <section class="add-product" id="addProductSection">
+
+        <h2>Add Food</h2>
+
+        <form id="productForm">
+
+            <label for="productName">Product Name</label>
+            <input
+                type="text"
+                id="productName"
+                placeholder="Enter product name"
+                required
+            >
+
+            <label for="productDescription">Description</label>
+            <textarea
+                id="productDescription"
+                placeholder="Enter product description"
+                required
+            ></textarea>
+
+            <label for="productPrice">Price</label>
+            <input
+                type="number"
+                id="productPrice"
+                placeholder="Enter price"
+                min="1"
+                required
+            >
+
+            
+
+            <label for="productImage">Product Image</label>
+            <input
+                type="file"
+                id="productImage"
+                accept="image/*"
+                required
+            >
+
+            <!-- Form Buttons -->
+            <div class="form-buttons">
+
+                <button type="submit" class="save-button">
+                    Add Product
+                </button>
+
+                <button type="button" id="cancelButton" class="cancel-button">
+                    Cancel
+                </button>
+
+            </div>
+
+        </form>
+
+    </section>
+
+
+    <!-- My Products -->
+    <section class="products">
+
+        <h2>My Products</h2>
+
+        <div class="product-list" id="productList">
+            <!-- Products appear here (galing sa seller.js) -->
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Bili-Bite</p>
+        <p>Seller Dashboard</p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script type="module" src="seller.js"></script>
+
+</body>
+</html>
